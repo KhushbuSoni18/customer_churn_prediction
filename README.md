@@ -24,7 +24,7 @@
 
 ## Overview
 
-Customer churn â€” when customers stop using a service â€” directly impacts business revenue and growth. This project builds a **Random Forest classification model** to predict which customers are likely to churn, enabling businesses to take proactive retention actions before customers leave.
+Customer churn - when customers stop using a service - directly impacts business revenue and growth. This project builds a **Random Forest classification model** to predict which customers are likely to churn, enabling businesses to take proactive retention actions before customers leave.
 
 The model was trained on a telecom dataset of **7,043 customers** and achieved **80% accuracy** on unseen test data.
 
