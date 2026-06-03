@@ -192,4 +192,4 @@ Aspiring Data Analyst | SQL · Python · Excel · Power BI
 
 ---
 
-*Part of a data analytics portfolio. Also see: [EV Analytics & Recommendation System](https://github.com/KhushbuSoni18/EV-Analytics-Recommendation-System) Â· [Retail Sales Analysis](https://github.com/KhushbuSoni18/Retail_Sales_Analysis) Â· [Support Ticket Dashboard](https://github.com/KhushbuSoni18/support-ticket-dashboard)*
+*Part of a data analytics portfolio. Also see: [EV Analytics & Recommendation System](https://github.com/KhushbuSoni18/EV-Analytics-Recommendation-System) · [Retail Sales Analysis](https://github.com/KhushbuSoni18/Retail_Sales_Analysis) · [Support Ticket Dashboard](https://github.com/KhushbuSoni18/support-ticket-dashboard)*
