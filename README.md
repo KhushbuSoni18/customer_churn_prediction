@@ -59,7 +59,7 @@ The model was trained on a telecom dataset of **7,043 customers** and achieved *
 ## Project Workflow
 
 ```
-Raw Data â†’ EDA â†’ Data Cleaning â†’ Feature Engineering â†’ Model Training â†’ Evaluation â†’ Insights
+Raw Data --> EDA --> Data Cleaning --> Feature Engineering --> Model Training --> Evaluation --> Insights
 ```
 
 ### 1. Exploratory Data Analysis
@@ -112,9 +112,9 @@ Raw Data â†’ EDA â†’ Data Cleaning â†’ Feature Engineering â†�
 | F1-Score (weighted avg) | 0.79 |
 
 **Confusion Matrix summary (on 1,409 test records):**
-- Correctly identified 952 / 1,035 non-churners âœ…
-- Correctly identified 176 / 374 churners âœ…
-- 198 churners were missed (false negatives) â€” room for improvement with class balancing techniques
+- Correctly identified 952 / 1,035 non-churners 
+- Correctly identified 176 / 374 churners 
+- 198 churners were missed (false negatives) - room for improvement with class balancing techniques
 
 > **Note:** The model is better at identifying loyal customers (92% recall) than churners (47% recall). This is a common trade-off with imbalanced datasets. Techniques like SMOTE or class_weight adjustment can improve churn recall.
 
@@ -124,10 +124,10 @@ Raw Data â†’ EDA â†’ Data Cleaning â†’ Feature Engineering â†�
 
 This model enables the retention team to:
 
-- **Prioritise outreach** â€” focus limited retention budget on highest-risk customers instead of broad campaigns
-- **Act early** â€” flag new customers with low tenure before they churn
-- **Design better contracts** â€” data confirms month-to-month contracts are the biggest churn driver; incentivising longer contracts could directly reduce churn
-- **Personalise offers** â€” customers without TechSupport or OnlineSecurity are higher risk; targeted upsell of these services may reduce churn while generating revenue
+- **Prioritise outreach** - focus limited retention budget on highest-risk customers instead of broad campaigns
+- **Act early** - flag new customers with low tenure before they churn
+- **Design better contracts** - data confirms month-to-month contracts are the biggest churn driver; incentivising longer contracts could directly reduce churn
+- **Personalise offers** - customers without TechSupport or OnlineSecurity are higher risk; targeted upsell of these services may reduce churn while generating revenue
 
 ---
 
@@ -135,11 +135,14 @@ This model enables the retention team to:
 
 ```
 customer_churn_prediction/
-â”‚
-â”œâ”€â”€ Customer_Churn_Prediction.ipynb   # Main notebook (EDA + Model)
-â”œâ”€â”€ Customer_data.csv                 # Dataset (7,043 records)
-â”œâ”€â”€ feature_importance.png            # Top 10 feature importance chart
-â””â”€â”€ README.md                         # Project documentation
+|
+├── Customer_Churn_Prediction.ipynb
+# Main notebook (EDA + Model)
+├── Customer_data.csv
+# Dataset (7,043 records)
+├── feature_importance.png
+  # Top 10 feature importance chart
+└── README.md                         # Project documentation
 ```
 
 ---
@@ -182,7 +185,7 @@ jupyter notebook Customer_Churn_Prediction.ipynb
 ## Author
 
 **Khushbu Soni**
-Aspiring Data Analyst | SQL Â· Python Â· Excel Â· Power BI
+Aspiring Data Analyst | SQL · Python · Excel · Power BI
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/khushbu-soni18/)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/KhushbuSoni18)
